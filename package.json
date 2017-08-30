@@ -1,0 +1,27 @@
+{
+  "name": "sprout_form",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "react": "^15.3.0",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-dom": "^15.3.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "jquery": true
+    }
+  },
+  "devDependencies": {
+    "create-react-app-sass": "^1.1.0",
+    "css-loader": "^0.28.5",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
